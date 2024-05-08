@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/work_FPGA/20240508_Combinational_Logic_Circuit/20240508_Combinational_Logic_Circuit.srcs/sources_1/new/half_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/work_FPGA/20240508_Combinational_Logic_Circuit/20240508_Combinational_Logic_Circuit.srcs/sim_1/new/tb_half_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_half_Adder

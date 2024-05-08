@@ -4,11 +4,11 @@
 // Engineer: 
 // 
 // Create Date: 2024/05/08 10:29:08
-// Design Name: 
+// Design Name: FPGA introduction
 // Module Name: gates
 // Project Name: 
-// Target Devices: 
-// Tool Versions: 
+// Target Devices: Artix 7 - Basys 3
+// Tool Versions: Vivado 2020.2
 // Description: 
 // 
 // Dependencies: 
@@ -19,9 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
 module gates(
-
     input x0,
     input x1,
     output y0,
@@ -33,12 +31,21 @@ module gates(
     output y6
     );
     
-    assign y0 = x0 & x1;
-    assign y1 = ~(x0 & x1);
-    assign y2 = x0 | x1;
-    assign y3 = ~(x0 | x1);
-    assign y4 = x0 ^ x1;
-    assign y5 = ~(x0 ^ x1);
-    assign y6 = ~x0;
+//    assign y0 = x0 & x1;
+//    assign y1 = ~(x0 & x1);
+//    assign y2 = x0 | x1;
+//    assign y3 = ~(x0 | x1);
+//    assign y4 = x0 ^ x1;
+//    assign y5 = ~(x0 ^ x1);
+//    assign y6 = ~x0;
+
+    // gate
+    and (y0, x0, x1);  // gate (output, input, input)
+    nand (y1, x0, x1);
+    or (y2, x0, x1);    
+    nor (y3, x0, x1);
+    xor (y4, x0, x1);
+    xnor (y5, x0, x1);
+    not (y6, x0);
     
 endmodule

@@ -9,6 +9,8 @@ Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.half_Adder
+Compiling module xil_defaultlib.full_Adder
+Compiling module xil_defaultlib._4bit_FullAdder
 Compiling module xil_defaultlib.tb_half_Adder
 Compiling module xil_defaultlib.glbl
 Built simulation snapshot tb_half_Adder_behav

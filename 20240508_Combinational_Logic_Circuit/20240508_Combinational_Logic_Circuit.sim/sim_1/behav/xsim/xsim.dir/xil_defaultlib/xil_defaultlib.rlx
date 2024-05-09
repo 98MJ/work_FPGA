@@ -3,5 +3,5 @@
 Nov 18 2020
 09:47:47
 D:/work_FPGA/20240508_Combinational_Logic_Circuit/20240508_Combinational_Logic_Circuit.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
-D:/work_FPGA/20240508_Combinational_Logic_Circuit/20240508_Combinational_Logic_Circuit.srcs/sim_1/new/tb_half_Adder.v,1715150704,verilog,,,,tb_half_Adder,,,,,,,,
-D:/work_FPGA/20240508_Combinational_Logic_Circuit/20240508_Combinational_Logic_Circuit.srcs/sources_1/new/half_Adder.v,1715151059,verilog,,D:/work_FPGA/20240508_Combinational_Logic_Circuit/20240508_Combinational_Logic_Circuit.srcs/sim_1/new/tb_half_Adder.v,,half_Adder,,,,,,,,
+D:/work_FPGA/20240508_Combinational_Logic_Circuit/20240508_Combinational_Logic_Circuit.srcs/sim_1/new/tb_half_Adder.v,1715157004,verilog,,,,tb_half_Adder,,,,,,,,
+D:/work_FPGA/20240508_Combinational_Logic_Circuit/20240508_Combinational_Logic_Circuit.srcs/sources_1/new/half_Adder.v,1715155691,verilog,,D:/work_FPGA/20240508_Combinational_Logic_Circuit/20240508_Combinational_Logic_Circuit.srcs/sim_1/new/tb_half_Adder.v,,_4bit_FullAdder;full_Adder;half_Adder,,,,,,,,

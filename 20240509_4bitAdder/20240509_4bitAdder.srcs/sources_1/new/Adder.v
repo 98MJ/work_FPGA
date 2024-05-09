@@ -19,6 +19,31 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
+module Adder_8bit(
+    input [7:0] a,
+    input [7:0] b,
+    input cin,
+    output [7:0] sum,
+    output co 
+    );
+
+    wire w_carrya;
+
+    Adder U_4ADDER_1(
+        .a(a[3:0]),
+        .b(b[3:0]),
+        .cin(1'b0),
+        .sum(sum[3:0]),
+        .co(w_carrya)
+    );
+    Adder U_4ADDER_2(
+        .a(a[7:4]),
+        .b(b[7:4]),
+        .cin(w_carrya),
+        .sum(sum[7:4]),
+        .co(co)
+    );    
+endmodule
 
 module Adder (
     input [3:0] a,

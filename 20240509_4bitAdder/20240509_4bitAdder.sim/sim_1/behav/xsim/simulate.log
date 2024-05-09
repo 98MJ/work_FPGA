@@ -1,0 +1,23 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+a:13 + b:13
+passed!
+a: 3 + b: 6
+passed!
+a:10 + b: 9
+passed!
+a: 5 + b: 8
+passed!
+a: 7 + b: 9
+passed!
+a:14 + b: 1
+passed!
+a: 2 + b: 3
+passed!
+a: 9 + b: 9
+passed!
+a:12 + b: 7
+passed!
+a:11 + b:15
+passed!
+$finish called at time : 100 ns : File "D:/work_FPGA/20240509_4bitAdder/20240509_4bitAdder.srcs/sim_1/new/tb_Adder_sv.sv" Line 62

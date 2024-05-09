@@ -31,7 +31,7 @@ module Adder (
   wire [2:0] w_carry;
 
   fullAdder U_FA0 (
-      .a  (a[0]),
+      .a  (a[0]), 
       .b  (b[0]),
       .cin(cin),
       .sum(sum[0]),

@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 class transaction;
-    rand bit [3:0] a; //bit 자료형
+    rand bit [3:0] a; //bit ?��료형
     rand bit [3:0] b;
 endclass
 
@@ -49,9 +49,17 @@ module tb_Adder_sv();
             trans.randomize();
             a = trans.a;
             b = trans.b;
-            #10 $display("a:%d + b:%d", trans.a, trans.b);
+            #10 $display("a:%d + b:%d", trans.a, trans.b); 
+        
+        
+            if((a+b)==sum) begin
+                $display("passed!");
+            end
+            else begin
+                $display("failed!");
+            end
         end
-        #10 $finish;
+    $finish;
     end
 
     

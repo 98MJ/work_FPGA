@@ -66,7 +66,6 @@ full_Adder u_FA4(
     .sum(sum3),
     .carry(carry)
 );
-
 endmodule
 
 

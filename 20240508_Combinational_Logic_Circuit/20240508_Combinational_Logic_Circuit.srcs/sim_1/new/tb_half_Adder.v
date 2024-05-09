@@ -41,22 +41,22 @@ module tb_half_Adder();
     wire sum2;
     wire sum3;
     wire carry;
-    
-//    half_Adder test_bench(
-//        .a(a),
-//        .b(b),
-//        .sum(sum),
-//        .carry(carry)
-//    );
-    
-//    full_Adder test_bench (
-//        .a(a),
-//        .b(b),
-//        .cin(cin),
-//        .sum(sum),
-//        .carry(carry)
-//    );
-    
+/*    
+   half_Adder test_bench(
+        .a(a),
+        .b(b),
+        .sum(sum),
+        .carry(carry)
+    );*/
+/*    
+    full_Adder test_bench (
+        .a(a),
+        .b(b),
+        .cin(cin),
+        .sum(sum),
+        .carry(carry)
+    );*/
+   
     _4bit_FullAdder tb(
         .a0(a0), 
         .a1(a1), 

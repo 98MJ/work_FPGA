@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri May 10 18:07:46 2024
+# Process ID: 5864
+# Current directory: D:/work_FPGA/20240510_minsec/20240510_minsec.runs/synth_1
+# Command line: vivado.exe -log minsec_clock.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source minsec_clock.tcl
+# Log file: D:/work_FPGA/20240510_minsec/20240510_minsec.runs/synth_1/minsec_clock.vds
+# Journal file: D:/work_FPGA/20240510_minsec/20240510_minsec.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source minsec_clock.tcl -notrace

@@ -1,0 +1,257 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri May 10 18:07:46 2024
+# Process ID: 5864
+# Current directory: D:/work_FPGA/20240510_minsec/20240510_minsec.runs/synth_1
+# Command line: vivado.exe -log minsec_clock.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source minsec_clock.tcl
+# Log file: D:/work_FPGA/20240510_minsec/20240510_minsec.runs/synth_1/minsec_clock.vds
+# Journal file: D:/work_FPGA/20240510_minsec/20240510_minsec.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source minsec_clock.tcl -notrace
+Command: synth_design -top minsec_clock -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11600
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1105.199 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'minsec_clock' [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/new/minsec_clock.v:3]
+INFO: [Synth 8-6157] synthesizing module 'fndController' [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:3]
+INFO: [Synth 8-6157] synthesizing module 'clkDiv' [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:180]
+	Parameter MAX_COUNT bound to: 100000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clkDiv' (1#1) [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:180]
+WARNING: [Synth 8-689] width (2) of port connection 'o_clk' does not match port width (1) of module 'clkDiv' [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:19]
+INFO: [Synth 8-6157] synthesizing module 'counter' [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:156]
+	Parameter MAX_COUNT bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counter' (2#1) [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:156]
+WARNING: [Synth 8-689] width (2) of port connection 'clk' does not match port width (1) of module 'counter' [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:24]
+INFO: [Synth 8-6157] synthesizing module 'digitSplitter' [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'digitSplitter' (3#1) [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:58]
+INFO: [Synth 8-6157] synthesizing module 'mux' [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:117]
+INFO: [Synth 8-226] default block is never used [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:127]
+INFO: [Synth 8-6155] done synthesizing module 'mux' (4#1) [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:117]
+INFO: [Synth 8-6157] synthesizing module 'BDCtoSEG' [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:72]
+INFO: [Synth 8-226] default block is never used [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'BDCtoSEG' (5#1) [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:72]
+INFO: [Synth 8-6157] synthesizing module 'Decoder_2_4' [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:101]
+INFO: [Synth 8-6155] done synthesizing module 'Decoder_2_4' (6#1) [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:101]
+INFO: [Synth 8-6155] done synthesizing module 'fndController' (7#1) [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:3]
+INFO: [Synth 8-6157] synthesizing module 'clkDiv__parameterized0' [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:180]
+	Parameter MAX_COUNT bound to: 100000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clkDiv__parameterized0' (7#1) [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:180]
+INFO: [Synth 8-6157] synthesizing module 'time_Counter' [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:206]
+INFO: [Synth 8-6155] done synthesizing module 'time_Counter' (8#1) [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/imports/new/fndController.v:206]
+WARNING: [Synth 8-7071] port 'c_clk' of module 'time_Counter' is unconnected for instance 'U_CounterMin' [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/new/minsec_clock.v:35]
+WARNING: [Synth 8-7023] instance 'U_CounterMin' of module 'time_Counter' has 4 connections declared, but only 3 given [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/new/minsec_clock.v:35]
+INFO: [Synth 8-6157] synthesizing module 'merge' [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/new/minsec_clock.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'merge' (9#1) [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/new/minsec_clock.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'minsec_clock' (10#1) [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/sources_1/new/minsec_clock.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1105.199 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1105.199 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1105.199 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1105.199 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/constrs_1/imports/work_FPGA/MY_Basys-3-Master.xdc]
+Finished Parsing XDC File [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/constrs_1/imports/work_FPGA/MY_Basys-3-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/work_FPGA/20240510_minsec/20240510_minsec.srcs/constrs_1/imports/work_FPGA/MY_Basys-3-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/minsec_clock_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/minsec_clock_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1174.719 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1174.719 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 1174.719 ; gain = 69.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 1174.719 ; gain = 69.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 1174.719 ; gain = 69.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:13 . Memory (MB): peak = 1174.719 ; gain = 69.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   27 Bit       Adders := 1     
+	   2 Input   17 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 2     
+	   2 Input    2 Bit       Adders := 1     
++---Registers : 
+	               27 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input   27 Bit        Muxes := 1     
+	   2 Input   17 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 2     
+	   4 Input    4 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:19 . Memory (MB): peak = 1174.719 ; gain = 69.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:26 . Memory (MB): peak = 1174.719 ; gain = 69.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:27 . Memory (MB): peak = 1174.719 ; gain = 69.520
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:27 . Memory (MB): peak = 1184.977 ; gain = 79.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:09 ; elapsed = 00:00:30 . Memory (MB): peak = 1200.777 ; gain = 95.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:09 ; elapsed = 00:00:30 . Memory (MB): peak = 1200.777 ; gain = 95.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:09 ; elapsed = 00:00:30 . Memory (MB): peak = 1200.777 ; gain = 95.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:09 ; elapsed = 00:00:30 . Memory (MB): peak = 1200.777 ; gain = 95.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:30 . Memory (MB): peak = 1200.777 ; gain = 95.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:09 ; elapsed = 00:00:30 . Memory (MB): peak = 1200.777 ; gain = 95.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    30|
+|3     |LUT1   |     5|
+|4     |LUT2   |    92|
+|5     |LUT3   |    20|
+|6     |LUT4   |    36|
+|7     |LUT5   |    14|
+|8     |LUT6   |    48|
+|9     |FDCE   |    58|
+|10    |FDRE   |     3|
+|11    |IBUF   |     2|
+|12    |OBUF   |    12|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:09 ; elapsed = 00:00:30 . Memory (MB): peak = 1200.777 ; gain = 95.578
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:28 . Memory (MB): peak = 1200.777 ; gain = 26.059
+Synthesis Optimization Complete : Time (s): cpu = 00:00:09 ; elapsed = 00:00:30 . Memory (MB): peak = 1200.777 ; gain = 95.578
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1212.848 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 30 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1216.094 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+39 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:34 . Memory (MB): peak = 1216.094 ; gain = 110.895
+INFO: [Common 17-1381] The checkpoint 'D:/work_FPGA/20240510_minsec/20240510_minsec.runs/synth_1/minsec_clock.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file minsec_clock_utilization_synth.rpt -pb minsec_clock_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri May 10 18:08:23 2024...

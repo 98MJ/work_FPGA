@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri May 10 16:04:43 2024
+# Process ID: 3824
+# Current directory: D:/work_FPGA/20240510_Counter_10000/20240510_Counter_10000.runs/synth_1
+# Command line: vivado.exe -log Count_disp.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Count_disp.tcl
+# Log file: D:/work_FPGA/20240510_Counter_10000/20240510_Counter_10000.runs/synth_1/Count_disp.vds
+# Journal file: D:/work_FPGA/20240510_Counter_10000/20240510_Counter_10000.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Count_disp.tcl -notrace

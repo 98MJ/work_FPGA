@@ -28,7 +28,6 @@ module Adder_8bit(
     );
 
     wire w_carrya;
-
     Adder U_4ADDER_1(
         .a(a[3:0]),
         .b(b[3:0]),

@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/work_FPGA/20240510_8bitAdder_FND/20240510_8bitAdder_FND.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,uvm,,,,,,
+D:/work_FPGA/20240510_8bitAdder_FND/20240510_8bitAdder_FND.srcs/sim_1/new/tb_adder_sv.sv,1715304489,systemVerilog,,,,$unit_tb_adder_sv_sv;tb_adder_sv,,uvm,,,,,,
+D:/work_FPGA/20240510_8bitAdder_FND/20240510_8bitAdder_FND.srcs/sources_1/new/adder.v,1715302743,verilog,,,,Adder_4bit;Adder_8bit;fullAdder;halfAdder,,uvm,,,,,,

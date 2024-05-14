@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May 13 17:48:04 2024
+# Process ID: 14468
+# Current directory: D:/work_FPGA/20240513_ClockCounter/20240513_ClockCounter.runs/impl_1
+# Command line: vivado.exe -log ClockCounter.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ClockCounter.tcl -notrace
+# Log file: D:/work_FPGA/20240513_ClockCounter/20240513_ClockCounter.runs/impl_1/ClockCounter.vdi
+# Journal file: D:/work_FPGA/20240513_ClockCounter/20240513_ClockCounter.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ClockCounter.tcl -notrace

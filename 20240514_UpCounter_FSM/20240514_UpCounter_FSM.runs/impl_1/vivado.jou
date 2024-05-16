@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed May 15 15:57:33 2024
+# Process ID: 21468
+# Current directory: D:/work_FPGA/20240514_UpCounter_FSM/20240514_UpCounter_FSM.runs/impl_1
+# Command line: vivado.exe -log StopWatch.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source StopWatch.tcl -notrace
+# Log file: D:/work_FPGA/20240514_UpCounter_FSM/20240514_UpCounter_FSM.runs/impl_1/StopWatch.vdi
+# Journal file: D:/work_FPGA/20240514_UpCounter_FSM/20240514_UpCounter_FSM.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source StopWatch.tcl -notrace

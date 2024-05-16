@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-
+/*
 module Count_disp (
     input reset,
     input clk,
@@ -28,7 +28,7 @@ module Count_disp (
     .reset(reset),
     .count(w_count)
     );    
-endmodule
+endmodule*/
 
 module Counter_10000(
     input clk,

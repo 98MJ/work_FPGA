@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/work_FPGA/20240517_uartRx/20240517_uartRx.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/work_FPGA/20240517_uartRx/20240517_uartRx.srcs/sim_1/new/tb_RX.v,1716013373,verilog,,,,tb_RX,,,,,,,,
+D:/work_FPGA/20240517_uartRx/20240517_uartRx.srcs/sources_1/new/UartRx.v,1716012003,verilog,,D:/work_FPGA/20240517_uartRx/20240517_uartRx.srcs/sim_1/new/tb_RX.v,,UartRx;buadrate_generator;reciever,,,,,,,,

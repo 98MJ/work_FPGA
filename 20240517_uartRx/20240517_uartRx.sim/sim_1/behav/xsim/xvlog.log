@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/work_FPGA/20240517_uartRx/20240517_uartRx.srcs/sources_1/new/UartRx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module UartRx
+INFO: [VRFC 10-2458] undeclared symbol br_tick, assumed default net type wire [D:/work_FPGA/20240517_uartRx/20240517_uartRx.srcs/sources_1/new/UartRx.v:24]
+INFO: [VRFC 10-311] analyzing module reciever
+INFO: [VRFC 10-311] analyzing module buadrate_generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/work_FPGA/20240517_uartRx/20240517_uartRx.srcs/sim_1/new/tb_RX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_RX

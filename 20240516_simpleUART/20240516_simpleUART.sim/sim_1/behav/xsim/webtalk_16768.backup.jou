@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu May 16 15:38:46 2024
+# Process ID: 16768
+# Current directory: D:/work_FPGA/20240516_simpleUART/20240516_simpleUART.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/work_FPGA/20240516_simpleUART/20240516_simpleUART.sim/sim_1/behav/xsim/xsim.dir/tb_uart_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/work_FPGA/20240516_simpleUART/20240516_simpleUART.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/work_FPGA/20240516_simpleUART/20240516_simpleUART.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/work_FPGA/20240516_simpleUART/20240516_simpleUART.sim/sim_1/behav/xsim/xsim.dir/tb_uart_behav/webtalk/xsim_webtalk.tcl -notrace

@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/work_FPGA/20240516_UART_2/20240516_UART_2.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/work_FPGA/20240516_UART_2/20240516_UART_2.srcs/sim_1/new/tb_uart2.v,1715910504,verilog,,,,tb_uart2,,,,,,,,
+D:/work_FPGA/20240516_UART_2/20240516_UART_2.srcs/sources_1/new/UART_2.v,1715911031,verilog,,D:/work_FPGA/20240516_UART_2/20240516_UART_2.srcs/sim_1/new/tb_uart2.v,,UART_2;buadrate_generator;transmit;uart_TEST,,,,,,,,

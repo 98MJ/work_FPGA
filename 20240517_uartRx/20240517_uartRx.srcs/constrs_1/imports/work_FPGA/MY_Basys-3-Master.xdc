@@ -46,7 +46,7 @@ set_property -dict { PACKAGE_PIN V14  IOSTANDARD LVCMOS33 } [get_ports { rx_data
 #set_property -dict { PACKAGE_PIN P3   IOSTANDARD LVCMOS33 } [get_ports { led[12] }]; #IO_L12N_T1_MRCC_35           ,Sch=LED12
 #set_property -dict { PACKAGE_PIN N3   IOSTANDARD LVCMOS33 } [get_ports { led[13] }]; #IO_L12P_T1_MRCC_35           ,Sch=LED13
 #set_property -dict { PACKAGE_PIN P1   IOSTANDARD LVCMOS33 } [get_ports { led[14] }]; #IO_L19N_T3_VREF_35           ,Sch=LED14
-#set_property -dict { PACKAGE_PIN L1   IOSTANDARD LVCMOS33 } [get_ports { led[15] }]; #IO_L6N_T0_VREF_35            ,Sch=LED15
+set_property -dict { PACKAGE_PIN L1   IOSTANDARD LVCMOS33 } [get_ports { rx_done }]; #IO_L6N_T0_VREF_35            ,Sch=LED15
 
 
 ##7 segment display
@@ -143,7 +143,7 @@ set_property -dict { PACKAGE_PIN T18  IOSTANDARD LVCMOS33 } [get_ports { btnU }]
 
 ##USB-RS232 Interface
 
-#set_property -dict { PACKAGE_PIN B18  IOSTANDARD LVCMOS33 } [get_ports { RsRx }]; #IO_L19P_T3_16      ,Sch=UART_RXD_IN
+set_property -dict { PACKAGE_PIN B18  IOSTANDARD LVCMOS33 } [get_ports { rx }]; #IO_L19P_T3_16      ,Sch=UART_RXD_IN
 #set_property -dict { PACKAGE_PIN A18  IOSTANDARD LVCMOS33 } [get_ports { RsTx }]; #IO_L19N_T3_VREF_16 ,Sch=UART_TXD_OUT
 
 
